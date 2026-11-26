@@ -1,7 +1,6 @@
 const btnSaudacao = document.getElementById('btn-saudacao');
 const mensagemDinamica = document.getElementById('mensagem-dinamica');
 
-
 if (btnSaudacao) {
     btnSaudacao.addEventListener('click', () => {
         const mensagens = [
